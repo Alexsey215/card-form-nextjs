@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-light: #2189ea;
+    --color-error: #ff2953;
+}
+
+body {
+    text-shadow: 0 0 5px #eee;
+}
+
+input {
+    text-shadow: 0 0 5px #eee;
+}
+
+.background-gradient {
+    height: 100vh;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(210deg, #5FC3E4 0%, #E55D87 100%);
+}
+
+.form-gradient {
+    background: linear-gradient(30deg, #5FC3E4 0%, #E55D87 100%);
+}
+
+.btn-gradient {
+    background: linear-gradient(to left, #E55D87 0%, #5FC3E4 51%, #E55D87 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.btn-gradient:hover {
+    background-position: right center;
+}
